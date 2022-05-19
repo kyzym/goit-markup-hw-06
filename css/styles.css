@@ -558,7 +558,7 @@ img {
 
 .foot-add {
   color: var(--hero-color);
-  margin-bottom: 10px;
+  display: inline-block;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -572,6 +572,7 @@ img {
 
 .add-please {
   flex-direction: column;
+  margin-right: auto;
 }
 
 .footer-container {
@@ -599,6 +600,59 @@ img {
 .icon-foot:hover,
 .icon-foot:focus {
   background-color: var(--accent-color);
+}
+
+.submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 200px;
+  height: 50px;
+  padding: 0;
+
+  background-color: var(--accent-color);
+  color: var(--hero-color);
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  cursor: pointer;
+  box-shadow: var(--hero-btn-shadow);
+
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.email-svg {
+  margin-left: 10px;
+}
+
+.email {
+  width: 358px;
+  height: 50px;
+  color: var(--hero-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: inherit;
+  font-size: 16px;
+  line-height: 1.25;
+  padding-top: 15px;
+  padding-right: 0px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  letter-spacing: 0.03em;
+  margin-right: 12px;
+
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
+}
+.foot.user-email {
+  margin-bottom: 20px;
+}
+
+.signup-form {
+  display: flex;
 }
 
 /* portfolio */
