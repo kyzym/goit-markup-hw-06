@@ -722,7 +722,8 @@ img {
 .input:focus-within .input-icon {
   fill: var(--accent-color);
 }
-.input:hover ~ .input-icon {
+.input:hover ~ .input-icon,
+.input:focus ~ .input-icon {
   fill: var(--accent-color);
 }
 
@@ -786,6 +787,9 @@ img {
 
 .checkbox:checked ~ .checkbox-icon {
   background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+.checkbox:focus ~ .checkbox-icon {
   border-color: var(--accent-color);
 }
 
