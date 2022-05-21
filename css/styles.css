@@ -297,8 +297,10 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
+
   background-color: var(--backdrop-color);
   opacity: 1;
+
   transition: opacity 250ms var(--cubic-transm), visibility 250ms var(--cubic-transm);
 }
 
@@ -332,12 +334,15 @@ img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
+
   background-color: var(--hero-color);
   border: var(--icon-border-color) solid 1px;
+
   top: 8px;
   right: 8px;
   position: absolute;
   cursor: pointer;
+
   transition: fill 250ms var(--cubic-transm);
 }
 
@@ -594,13 +599,16 @@ img {
 
 .icon-foot {
   display: flex;
-  background-color: var(--icon-foot-color);
+  justify-content: center;
+  align-items: center;
+
   border-radius: 50%;
   width: 44px;
   height: 44px;
+
+  background-color: var(--icon-foot-color);
   fill: var(--hero-color);
-  justify-content: center;
-  align-items: center;
+
   transition: background-color 250ms var(--cubic-transm);
 }
 
@@ -623,6 +631,7 @@ img {
 .email {
   width: 358px;
   height: 50px;
+
   color: var(--hero-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -682,10 +691,12 @@ img {
 .place-data {
   display: block;
   margin-bottom: 12px;
+
   text-align: center;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
+
   color: var(--title-color);
 }
 
@@ -717,12 +728,15 @@ img {
 
 .input {
   border: 1px solid var(--modal-border);
+
   border-radius: 4px;
   width: 100%;
   height: 40px;
   padding-left: 42px;
+
   outline: none;
   cursor: pointer;
+
   transition: border 250ms var(--cubic-transm);
 }
 
@@ -736,7 +750,9 @@ img {
 .textarea {
   height: 120px;
   resize: unset;
+
   border-color: var(--modal-border);
+
   border-radius: 4px;
   padding: 12px 16px;
   outline: none;
@@ -750,10 +766,12 @@ img {
 }
 
 .checkbox-label {
-  font-size: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  font-size: 14px;
+
   margin-bottom: 30px;
 }
 
@@ -774,12 +792,14 @@ img {
 .checkbox-icon {
   display: flex;
   align-items: center;
+
   width: 16px;
   height: 15px;
   margin-right: 7px;
   border: 2px solid #212121;
   border-radius: 2px;
   background-origin: border-box;
+
   transition: border 250ms var(--cubic-transm), background 250ms var(--cubic-transm);
 }
 
